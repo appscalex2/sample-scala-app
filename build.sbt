@@ -10,6 +10,3 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http-spray-json" % "10.2.7" 
 )
 
-
-addSbtPlugin("org.scala-sbt" % "sbt-dependency-licenses" % "1.0.3")
-
