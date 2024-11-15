@@ -7,3 +7,6 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-stream" % "2.6.18",
   "com.typesafe.akka" %% "akka-http-spray-json" % "10.2.7" // For JSON support
 )
+
+
+addSbtPlugin("org.scala-sbt" % "sbt-dependency-licenses" % "1.0.3")
